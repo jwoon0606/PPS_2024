@@ -12,8 +12,8 @@ public class A149_20240721 {
         String[] str;
         for(int i = 0; i < N; i++) {
             str = br.readLine().split(" ");
-            arr[i][0] = Integer.parseInt(str[0]);	// [i][0] : 몸무게
-            arr[i][1] = Integer.parseInt(str[1]);	// [i][1] : 키
+            arr[i][0] = Integer.parseInt(str[0]);
+            arr[i][1] = Integer.parseInt(str[1]);
         }
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < N; i++) {
